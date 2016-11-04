@@ -19,7 +19,6 @@ class Keabook(Workbook):
 		self.cmid							= easyxf('borders: left thick, right thick;')
 		self.cbot							= easyxf('borders: left thick, right thick, bottom thick;')
 		
-		
 ########################################################################
 	def addSheet(self,name):
 		self.sheetList.append(name)
